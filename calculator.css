@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(53, 59, 72);
+    background-color: rgb(56, 98, 189);
 }
 .calculator{
     width: 100%;
@@ -16,7 +16,7 @@ body{
 #main{
     width: 310px;
    border-radius: 20px;
-    background-color: rgb(46, 134, 222);
+    background-color: rgb(183, 21, 64);
     box-sizing: border-box;
 }
 /* .button{
@@ -28,6 +28,7 @@ body{
 .btn-grad {
     background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
     margin: 5px;
+    font-weight: bold;
     width: 45px;
     height: 40px;
     text-align: center;
@@ -41,6 +42,7 @@ body{
     font-weight: bold;
     display: block;
     margin-bottom: 20px;
+    
   }
 
   .btn-grad:hover {
@@ -56,11 +58,13 @@ body{
    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 input{
+    background-color: rgb(130, 204, 221);
     margin-top: 20px;
     margin-left: 15px;
     width:90%;
     margin-left: 5%;
-    height: 45px;
+    height: 90px;
+    font-size: 25px;
     font-weight: bold;
     padding: 10px;
     border: none;
